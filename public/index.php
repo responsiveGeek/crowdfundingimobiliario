@@ -67,10 +67,11 @@ try{
 
 echo "Started Hello world 444";
  
-
+/*
 $response->send();
 
 $kernel->terminate($request, $response);
+*/
 
 
 
