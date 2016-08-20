@@ -54,8 +54,7 @@ $response = $kernel->handle(
     $request = Illuminate\Http\Request::capture()
 );
 
-
-/*
+ 
 try{
     if(DB::connection()->getDatabaseName())
     {
@@ -64,9 +63,7 @@ try{
 } catch (Exception $e) {
     echo "Could not connect", $e->getMessage(), "\n";;
 }
-
-*/
-
+ 
 
 echo "Started Hello world 444";
  
